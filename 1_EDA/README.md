@@ -1,5 +1,5 @@
 # Data Job Market in Spain  - Exploratory Data Analysis w/ SQL
-[Haz clic aquí para Español](#trabajos-en-el-sector-de-datos-en-españa---análisis-exploratorio-con-sql)
+[Haz clic aquí para leer en Español](#trabajos-en-el-sector-de-datos-en-españa---análisis-exploratorio-con-sql)
 
 ![EDA Project Overview](images/pipeline_visual.png)
 
@@ -96,4 +96,11 @@ Insights about skill demand, salary patterns, and optimal skill combinations for
 
 # Trabajos en el Sector de Datos en España - Análisis Exploratorio con SQL
 
-Esta sección aun esta en formación (this section is still under development)
+![Descripcion General del Proyecto EDA](images/pipeline_de_datos-visualizacion.png)
+
+Un proyecto de SQL que analiza el mercado laboral para ingenieros de datos y tambien el mercado laboral general del sector de datos en España, utilizando datos reales de ofertas de empleo publicadas en línea entre enero de 2023 y junio de 2025
+
+Este estudio demuestra mi capacidad de: 
+- formar consultas SQL analíticas con calidad de poducción
+- Diseñar consultas eficientes
+- transformar preguntas relacionadas con la formación profesional en conlusiones basadas en datos
