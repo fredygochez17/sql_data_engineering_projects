@@ -2,18 +2,19 @@
 01_top_demanded_skills.sql
 
 EDA - Exploratory Data Analysis
+~ Análisis Exploratorio de Datos
 
 Questions: What are the most in-demand skills for data engineers in Spain? 
-Cuestion: Cuales son las competencias mas requeridas para ingenieros de datos en España?
+~ Cuestion: Cuales son las competencias mas requeridas para ingenieros de datos en España?
 
 - Identify the top 10 in-demand skills for data engineers
-  Identificar las competencias top 10 para ingenieros de datos
+  ~ Identificar las competencias top 10 para ingenieros de datos
 - Focus on job postings in Spain
-  Enfocar en ofertas de empleo en España
-- Why? Porque?
+  ~ Enfocar en ofertas de empleo en España
+- Why? ~ Porque?
     - Retrieve the top 10 skills with the highest demand in the Spanish market, providing 
       insites into the most valuable skills for data data engineers seeking work in Spain
-      Identificar las 10 competencias mas requeridas en España, y ofrecer información sobre 
+      ~ Identificar las 10 competencias mas requeridas en España, y ofrecer información sobre 
       las habilidades más valiosas para los ingenieros de datos que buscan empleo en España.
 
 - connect to job database when opening duckdb:
@@ -61,23 +62,23 @@ LIMIT 10 ;
 /*
 Here's a breakdown of the most in demand skills for data engineers in Spain            
 looking at data between January 2023 to June 2025:
-`Este es el resumen de las competencias mas requeridas por la Ingenieria de datos                            
-`en España tomando en cuenta datos entre Enero del 2023 a Junio del 2025:    
+~ Este es el resumen de las competencias mas requeridas por la Ingenieria de datos                            
+~ en España tomando en cuenta datos entre Enero del 2023 a Junio del 2025:    
 
 Python and SQL are by far the most in-demand skills, with nearly 6,900 job
 postings each. 
-`Las competencias mas en demanda son las de Python y SQL con casi 6.900
-`ofertas de empleo cada una en cual son mencionadas.
+~ Las competencias mas en demanda son las de Python y SQL con casi 6.900
+~ ofertas de empleo cada una en cual son mencionadas.
 
 Cloud platforms AWS and Azure round out the top 5 skills being mentioned in more
 than 4 thousand job postings each.
-`Plataformas cloud como AWS y Azure forman parte de las top 5 competencias
-`llegando a mas de 4 mil ofertas de empleo cada una.
+~ Plataformas cloud como AWS y Azure forman parte de las top 5 competencias
+~ llegando a mas de 4 mil ofertas de empleo cada una.
 
 Apache Spark completes the top 5 with over 3.5 thousand job postings, highlighting 
 the ever present importance of big data processing skills.   
-`Apache Spark completa el top 5 siendo mencionada en mas de 3.500 ofertas de empleo,
-`destacando la importancia en poder procesar grandes cantidades de datos.
+~ Apache Spark completa el top 5 siendo mencionada en mas de 3.500 ofertas de empleo,
+~ destacando la importancia en poder procesar grandes cantidades de datos.
 
 
 ┌────────────┬──────────────┐
@@ -105,11 +106,14 @@ Key Takeaways:
 - Scala, like Python, is another highly requested programming language
 - Airflow, Snowflake, and Kafka round out the top 10 most requested skills
 
-`Puntos Claves:                                                                              
-`- Python y SQL son fundamentales para la ingenieria de datos                                
-`- Plataformas Cloud (como AWS y Azure) son criticas para el proceso de datos moderno        
-`- Herramientas para manejar grandes cantidades de datos, como Apache Spark y Databricks, 
-`  son indespensables  
-`- Scala, como Python, es otro lenguaje de programación que se pide frecuentemente                              
-`- Airflow, Snowflake, y Kafka completan el top 10 de las competencias mas requeridas   
+/~
+Puntos Claves:                                                                              
+- Python y SQL son fundamentales para la ingenieria de datos                                
+- Plataformas Cloud (como AWS y Azure) son criticas para el proceso de datos moderno        
+- Herramientas para manejar grandes cantidades de datos, como Apache Spark y Databricks, 
+  son indespensables  
+- Scala, como Python, es otro lenguaje de programación que se pide frecuentemente                              
+- Airflow, Snowflake, y Kafka completan el top 10 de las competencias mas requeridas   
+~/
+
 */

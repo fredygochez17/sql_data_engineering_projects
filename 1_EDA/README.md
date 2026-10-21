@@ -16,10 +16,10 @@ This study demonstrates my ability to:
 - **Project Scope:** Built **3 analytical queries** that answer key questions about the data job market in Spain
 - **Data Modeling:** Utilized **multi-table joins** across fact and dimension tables to extract key insights
 - **Analytics:** Applied **aggregations**, **filtering**, and **sorting** to find top skills by demand, salary and overall value
-- **Outcomes:** Delivered **actionable insights** on SQL/Python dominance, cloud trends, specialized skills, and improvmenets for future studies
+- **Outcomes:** Delivered **actionable insights** on SQL/Python dominance, cloud trends, specialized skills, and improvments for future studies
 
 Feel free to review these SQL query files: 
-1. [`01_top_demanded_skills.sql`](01_top_demanded_skills.sql) – demand analysis with multi-table joins
+1. [`01_top_demanded_skills.sql`](01_top_demanded_skills.sql) – skill demand analysis with multi-table joins
 2. [`02_top_paying_skills.sql`](02_top_paying_skills.sql) – salary analysis with aggregations
 3. [`03_optimal_skills.sql`](03_optimal_skills.sql) – combined demand/salary optimization query
 
@@ -101,6 +101,24 @@ Insights about skill demand, salary patterns, and optimal skill combinations for
 Un proyecto de SQL que analiza el mercado laboral para ingenieros de datos y tambien el mercado laboral general del sector de datos en España, utilizando datos reales de ofertas de empleo publicadas en línea entre enero de 2023 y junio de 2025
 
 Este estudio demuestra mi capacidad de: 
-- formar consultas SQL analíticas con calidad de poducción
+- formar consultas SQL analíticas con calidad de producción
 - Diseñar consultas eficientes
-- transformar preguntas relacionadas con la formación profesional en conlusiones basadas en datos
+- transformar preguntas relacionadas con la formación profesional en conclusiones basadas en datos
+
+
+## Resumen Ejecutivo 
+
+- **Alcance del Proyecto:** Desarrollé **3 consultas analíticas** que responden reguntas clave sobre el mercado laboral del sector de datos en España
+- **Modelado de Datos:** Utilicé **uniones entre tablas** denominadas como *fact tables* y *dimension tables* para extraer información clave.
+- **Datos Analíticos:** Apliqué **funciones de agregación**, **filtros**, y **ordenamiento** para identificar las competencias más demandadas, mejor remuneradas y de mayor valor general. 
+- **Resultados:** Rendí **conclusiones prácticas** sobre el predominio de SQL/Python, las tendencias de plataformas cloud, las competencias especializadas y las mejoras para futuros estudios. 
+
+Podéis revisar estos archivos de consultas SQL mendiante los enlaces: 
+1. [`01_top_demanded_skills.sql`](01_top_demanded_skills.sql) – Análisis de la demanda de competencias mediante uniones entre múltiples tablas
+2. [`02_top_paying_skills.sql`](02_top_paying_skills.sql) – Análisis de salario mediante funciones de agregación
+3. [`03_optimal_skills.sql`](03_optimal_skills.sql) – Optimización que combina la demanda y los salarios
+
+
+## Problema y Contexto
+
+Preguntas alguien pudiera tener acerca del mercado laboral: 
