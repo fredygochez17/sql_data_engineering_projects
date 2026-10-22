@@ -95,7 +95,7 @@ Insights about skill demand, salary patterns, and optimal skill combinations for
 ---
 
 # Trabajos en el Sector de Datos en España - Análisis Exploratorio con SQL
-[Click here for English](.)
+[Click here for English](README.md)
 
 ![Descripcion General del Proyecto EDA](images/pipeline_de_datos-visualizacion.png)
 
