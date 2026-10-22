@@ -1,4 +1,4 @@
-# Data Job Market in Spain  - Exploratory Data Analysis w/ SQL
+# Data Job Market in Spain  - Exploratory Data Analysis with SQL
 [Haz clic aquí para leer en Español](#trabajos-en-el-sector-de-datos-en-españa---análisis-exploratorio-con-sql)
 
 ![EDA Project Overview](images/pipeline_visual.png)
@@ -29,18 +29,18 @@ Feel free to review these SQL query files:
 Questions one may have about the job market: 
 
 - **Most in-demand:** *Which skills appear most frequently in job postings for data jobs*
-- **Highest Paid:** *Which skills command the *
+- **Highest Paid:** *Which skills command the highest salaries*
 - **Best trade-off:** *what is the most optimal skill set balancing demand and compensation*
 
-This project analyzes a **data warehouse** built using a star schema design. The warehouse struccture consists of: 
+This project analyzes a **data warehouse** built using a star schema design. The warehouse structure consists of: 
 
 ![Data Warehouse](images/data_jobs_warehouse-star_schema_visual.png)
 
-- **Fact Table:** `job_postings_fact` - central table containing job posting details (job titles, locations, salaries, dates, etc.)
+- **Fact Table:** `job_postings_fact` — central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:**
-    - `company_dim` - company information linked to jobs postings
-    - `skills_dim`  - skills catalog with skill names and types
-- **Bridge Table:** `skills_job_dim` - resolves the many-to-many relationship between job postings and skills
+    - `company_dim` — company information linked to jobs postings
+    - `skills_dim`  — skills catalog with skill names and types
+- **Bridge Table:** `skills_job_dim` — resolves the many-to-many relationship between job postings and skills
 
 Insights about skill demand, salary patterns, and optimal skill combinations for data roles were extracted by querying across these interconnected tables. 
 
@@ -95,6 +95,7 @@ Insights about skill demand, salary patterns, and optimal skill combinations for
 ---
 
 # Trabajos en el Sector de Datos en España - Análisis Exploratorio con SQL
+[Click here for English](#data-job-market-in-spain---exploratory-data-analysis-with-sql)
 
 ![Descripcion General del Proyecto EDA](images/pipeline_de_datos-visualizacion.png)
 
@@ -121,4 +122,27 @@ Podéis revisar estos archivos de consultas SQL mendiante los enlaces:
 
 ## Problema y Contexto
 
-Preguntas alguien pudiera tener acerca del mercado laboral: 
+¿Qué preguntas pudieramos tener acerca del mercado laboral?
+
+- **Más demandadas:** *¿Qué competencias aparecen con mayor frecuencia en el sector de datos?*
+- **Mejor remuneradas:** *¿Qué competencias ofrecen los salarios más altos?*
+- **Mejor equilibrio entre demanda y remuneración:** *¿Cuál es el conjunto de competencias más óptimo para equilibrar la demanda laboral y la remuneración?*
+
+Este proyecto analiza un almacén de datos diseñado utilizando un *star schema* (esquema en estrella). La estructura del almacén de datos consta de lo siguiente:
+
+![Almacén de Datos](images/almacen_data_jobs-esquema_estrella.png)
+
+- **Fact Table:** `job_postings_fact` — tabla central que contiene los detalles de las ofertas de empleo (títulos de puestos, ubicaciones, salarios, fechas, etc.)
+- **Dimension Tables:**
+    - `company_dim` — información de las empresas vinculada a las ofertas de empleo
+    - `skills_dim`  — catálogo de competencias con sus nombres y denominaciones
+- **Bridge Table:** `skills_job_dim` — resuelve la relación de *many-to-many* entre las ofertas de empleo y las competencias
+
+Se obtuvieron conclusiones sobre la demanda de competencias, los patrones salariales y las combinaciones óptimas de competencias para puestos en el sector de datos mediante consultas a estas tablas interconectadas.
+
+## Stack Tecnológico
+- **Motor de consultas:** DuckDB para ejecutar consultas analíticas rápidas de tipo OLAP (¡y encima era gratis! XD)
+- **Lenguaje:** SQL (estilo ANSI, con funciones analíticas)
+- **Modelo de Datos:** Esquema en estrella (*star schema*), con tabla de hechos (*fact table*), una tabla puente (*bridge table*) y tablas de dimensiones (*dimension table*)
+- **Entorno de Desarrollo:** VS Code para editar SQL y la terminal para trabajar con la CLI de DuckDB
+- **Control de Versiones:** Git y GitHub para gestionar el historial de cambios de los scripts SQL
