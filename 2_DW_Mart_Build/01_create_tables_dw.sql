@@ -1,5 +1,6 @@
 -- Step 1: Data Warehouse — Create star schema tables
 -- 01_create_tables_dw.sql
+-- Create Tables Data Warehouse
 
 -- drop tables with foreign keys first
 DROP TABLE IF EXISTS skills_job_dim;
@@ -14,7 +15,7 @@ CREATE TABLE company_dim (
 
 CREATE TABLE skills_dim (
     skill_id    INTEGER     PRIMARY KEY,
-    skill       VARCHAR, 
+    skills      VARCHAR, 
     type        VARCHAR
 );
 
