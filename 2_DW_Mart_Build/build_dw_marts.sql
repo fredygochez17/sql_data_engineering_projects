@@ -2,6 +2,13 @@
 
 -- duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
 
+-- Mother Duck (remote): 
+-- duckdb md:dw_marts -c ".read build_dw_marts.sql"
+
+-- NEW USERS:
+-- Run this snippet to attach database
+ATTACH 'md:_share/dw_marts/3803039b-0c25-44f0-87d8-447f9eeaaa5e';
+
 */
 
 
