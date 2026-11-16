@@ -1,5 +1,6 @@
 /*
 
+-- run locally:
 -- duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
 
 -- Mother Duck (remote): 
@@ -29,3 +30,6 @@ ATTACH 'md:_share/dw_marts/3803039b-0c25-44f0-87d8-447f9eeaaa5e';
 
 -- Step 6: Mart — Update priority roles mart
 .read 06_update_priority_mart.sql
+
+-- Step 7: Create Company Mart
+.read 07_create_company_mart.sql
